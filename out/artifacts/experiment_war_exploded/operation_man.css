@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+.man_ope {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: rgba(79, 63, 78, 0.88);
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+
+.man {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+}
+
+.logo {
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration-line: none;
+    color: #ffffff;
+}
+
+a {
+    margin: 15px;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    color: #ffffff;
+}
+
+.add-area, .delete-area, .update-area, .search-area {
+    position: relative;
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    width: 100%;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+text-part {
+    width: 65%;
+    height: 800%;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Audiowide;
+    color: #ffffff;
+}
+
+#add button {
+    margin-top: 30px;
+    width: 130px;
+    height: 25px;
+    border-radius: 13px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+    color: #ffffff;
+}
+
+#add button:hover {
+    background-image: linear-gradient(120deg, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+
+#delete button {
+    margin-top: 30px;
+    width: 130px;
+    height: 25px;
+    border-radius: 13px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+    color: #ffffff;
+}
+
+#delete button:hover {
+    background-image: linear-gradient(120deg, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+
+#update button {
+    margin-top: 30px;
+    width: 130px;
+    height: 25px;
+    border-radius: 13px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+    color: #ffffff;
+}
+
+#update button:hover {
+    background-image: linear-gradient(120deg, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+
+#search button {
+    margin-top: 30px;
+    width: 130px;
+    height: 25px;
+    border-radius: 13px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+    color: #ffffff;
+}
+
+#search button:hover {
+    background-image: linear-gradient(120deg, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}

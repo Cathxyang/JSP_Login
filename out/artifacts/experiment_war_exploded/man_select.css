@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+/*背景*/
+.services-section {
+    background-color: rgba(79, 63, 78, 0.88);
+    background-size: cover;
+    height: 100%;
+    padding: 60px 0;
+}
+
+.inner-width {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+/*标题*/
+.section-title {
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+/*标题下横线*/
+.border {
+    width: 160px;
+    height: 2px;
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    margin: 40px auto;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*图标下文字*/
+.service-box {
+    max-width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/*图标*/
+.service-icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border: 3px solid #fab3af;
+    color: #fab3af;
+    transform: rotate(45deg);
+    margin-bottom: 30px;
+    margin-top: 16px;
+}
+
+.service-icon i {
+    line-height: 70px;
+    transform: rotate(45deg);
+    font-size: 26px;
+}
+
+.service-box:hover .service-icon {
+    background: #fbc9bf;
+    color: #ffffff;
+}
+
+.service-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 100px) {
+    .service-box{
+        max-width: 45%;
+    }
+}
